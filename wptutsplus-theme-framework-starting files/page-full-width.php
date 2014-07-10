@@ -22,5 +22,7 @@ get_header(); ?>
 		</article><!-- #post-## -->
 
 	<?php endwhile; ?>
+	
+</div><! -- content-->
 
 <?php get_footer(); ?>
