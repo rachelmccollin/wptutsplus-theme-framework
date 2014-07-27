@@ -64,7 +64,7 @@
 	<!-- full width navigation menu - delete nav element if using top navigation -->
 	<nav class="menu main">
 	  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
-		<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content"><?php e_( 'Skip to content', 'tutsplus' ); ?></a></div>
+		<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content"><?php _e( 'Skip to content', 'tutsplus' ); ?></a></div>
 		<?php wp_nav_menu( array( 'container_class' => 'main-nav', 'theme_location' => 'primary' ) ); ?>
 
 	</nav><!-- .main -->
