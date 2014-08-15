@@ -1,6 +1,6 @@
 Creating your own WordPress theme framework
 
-This theme supports the 5th part of this series for wptutsplus - these are the starting files.
+This theme supports the 6th part of this series for wptutsplus - these are the starting files.
 
 The starting theme includes the following template files:
 index.php
@@ -37,6 +37,11 @@ After the content
 In the sidebar
 In the footer
 After the footer
+
+There are 3 filter hooks:
+1 in the header
+2 in the footer
+
 
 Widget Areas
 There are six widget areas, all added via the widgets.php file:
