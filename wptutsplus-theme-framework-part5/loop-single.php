@@ -39,8 +39,8 @@ The main loop
 	<section class="entry-meta">
 		<p>
 			<?php 
-			printf(  __('Posted on %s', 'tutsplus' ), the_date() );
-			printf( __( 'by %s', 'tutsplus' ), get_the_author() );?>
+			printf(  __('Posted on %s', 'tutsplus' ), get_the_date() );
+			printf( __( ' by %s', 'tutsplus' ), get_the_author() );?>
 		</p>
 	</section><!-- .entry-meta -->
 
