@@ -1,14 +1,20 @@
 Creating your own WordPress theme framework
 
-This theme supports the 3rd part of this series for wptutsplus - these are the starting files.
+This theme supports the 3rd part of this series for wptutsplus.
 
-The starting theme includes the following template files:
+The theme includes the following template files:
+archive.php
 index.php
 page.php - for static pages
+page-full-width.php
 archive.php - for archive pages
 header.php
 sidebar.php
 footer.php
+loop.php
+loop-single.php
+loop-page.php
+functions.php
 
 The theme supports featured images, menus and widgets and uses them as follows:
 
